@@ -96,13 +96,13 @@ Search-Rescue-Drone/
 ├── requirements.txt
 └── README.md
 
-⚙️ Installation
+##⚙️ Installation
 
 Install the required Python libraries:
 
 pip install -r requirements.txt
 
-▶️ Running AI Detection
+##▶️ Running AI Detection
 
 For normal YOLO:
 
@@ -112,7 +112,7 @@ For Open-Vocabulary YOLO:
 
 python AI/open_vocabulary_yolo/detect_open_vocab.py
 
-📍 GPS
+##📍 GPS
 
 The GPS module reads positioning information from the connected GPS receiver and can be used to associate detected objects with approximate coordinates.
 
@@ -126,11 +126,11 @@ The dashboard displays information such as:
 4)GPS information
 5)Drone status
 
-🚧 Current Scope
+##🚧 Current Scope
 
 The current software prototype focuses on RGB-camera-based detection, GPS information and rescue-data visualization.
 
-Future Scope
+##Future Scope
 
 Potential future enhancements include:
 
@@ -142,7 +142,7 @@ Potential future enhancements include:
 6)GPS-denied navigation
 7)Advanced victim prioritization
 
-⚠️ Disclaimer
+##⚠️ Disclaimer
 
 AI detection indicates a detected object or possible victim candidate; it does not by itself confirm that a person is a victim. Hardware performance depends on the camera, drone, computing platform, environment and communication system.
 
