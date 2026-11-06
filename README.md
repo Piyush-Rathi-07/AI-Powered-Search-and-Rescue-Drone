@@ -99,7 +99,7 @@ The dashboard displays information such as:
 4)GPS information
 5)Drone status
 
-##🚧 Current Scope
+## 🚧 Current Scope
 
 The current software prototype focuses on RGB-camera-based detection, GPS information and rescue-data visualization.
 Future Scope
